@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ebiztrait.finalsalary">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/k_icon_1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/k_icon_1"
+        android:supportsRtl="true"
+        android:name=".SmartApplication"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".FinalSalary" />
+
+        <activity android:name=".ExpenditurePerDay" />
+
+    </application>
+
+</manifest>
